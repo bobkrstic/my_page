@@ -40,6 +40,13 @@
   display: flex;
 }
 
+/* Resume Page */
+.resume-right-col {
+  background: #27221f;
+  color: white;
+  padding: 2em;
+}
+
 /* Contact page */
 .contact-body {
   margin: auto;

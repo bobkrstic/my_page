@@ -13,7 +13,7 @@ import {
   IconButton
 } from "react-mdl";
 
-export class Projects extends Component {
+class Projects extends Component {
   constructor(props) {
     super(props);
 
