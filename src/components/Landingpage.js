@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import background from "./background4.jpg";
+import background from "./background9.jpg";
 
 class Landingpage extends Component {
   render() {
@@ -12,6 +12,7 @@ class Landingpage extends Component {
         >
           <Cell col={12}>
             <img
+              style={{ borderColor: "black" }}
               src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png"
               alt="my-image"
               className="avatar-img"
@@ -21,12 +22,16 @@ class Landingpage extends Component {
               <hr />
               <p>
                 HTML/CSS | Bootstrap | JavaScript | React | React Native |
-                NodeJS | Express | MongoDB
+                NodeJS | Express | Axios
+              </p>
+              <p>
+                MongoDB | Firebase | MySQL | MAMP | Reactstrap | React-MDL |
+                handlebars | EJS | json-server
               </p>
               <div className="social-links">
                 {/* LinkedIn Account */}
                 <a
-                  href="http://google.com"
+                  href="https://www.linkedin.com/in/bob-krstic/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -34,20 +39,20 @@ class Landingpage extends Component {
                 </a>
                 {/* GitHub Account */}
                 <a
-                  href="http://google.com"
+                  href="https://github.com/bobkrstic"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
                 {/* Freecodecamp */}
-                <a
+                {/* <a
                   href="http://google.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i className="fa fa-free-code-camp" aria-hidden="true" />
-                </a>
+                </a> */}
 
                 {/* Youtube */}
                 <a
