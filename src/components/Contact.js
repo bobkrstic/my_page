@@ -12,11 +12,16 @@ class Contact extends Component {
               src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
               alt="myImage"
               style={{ height: "250px" }}
+              className="contact-image"
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              This will be a brief description of the owner. Info about the
-              career path ahead etc. Maybe something like "web developer",
-              skills blah blah blah.
+              Hey, thanks for being here for this long. I hope the website
+              didn't bore you to death. I am still learning react and web
+              development. Many stones are still unturned. But I am getting
+              there slowly. Please feel free to contact me at any time. Check
+              out my LinkedIn profile and GitHub account, the links are located
+              at the front page. Click "My Portfolio" in the top left corner of
+              this screen and it will get you there.
             </p>
           </Cell>
           <Cell col={6}>
@@ -27,7 +32,7 @@ class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
+                    style={{ fontSize: "25px", fontFamily: "Oxygen" }}
                   >
                     <i className="fa fa-phone-square" aria-hidden="true" />
                     916 - 878 - 8076
@@ -35,26 +40,26 @@ class Contact extends Component {
                 </ListItem>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
+                    style={{ fontSize: "25px", fontFamily: "Special Elite" }}
                   >
                     <i className="fa fa-fax" aria-hidden="true" />
-                    916 - 123 - 1234
+                    {"        "}Really???
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
+                    style={{ fontSize: "25px", fontFamily: "Oxygen" }}
                   >
                     <i className="fa fa-envelope" aria-hidden="true" />
-                    me@someemail.com
+                    slobodankrsticusa@gmail.com
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
+                    style={{ fontSize: "25px", fontFamily: "Oxygen" }}
                   >
                     <i className="fa fa-skype" aria-hidden="true" />
-                    Skype ID
+                    slobodankrsticusa
                   </ListItemContent>
                 </ListItem>
               </List>

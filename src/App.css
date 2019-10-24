@@ -1,36 +1,18 @@
 .header-color {
-  background: #bbd2c5; /* fallback for old browsers */
+  background: #536976; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #292e49,
-    #536976,
-    #bbd2c5
+    #536976
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #292e49,
-    #536976,
-    #bbd2c5
+    #536976
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #ada996; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #eaeaea,
-    #dbdbdb,
-    #f2f2f2,
-    #ada996
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #eaeaea,
-    #dbdbdb,
-    #f2f2f2,
-    #ada996
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   text-align: center;
   position: fixed;
   top: 0;
@@ -39,14 +21,22 @@
   height: 100%;
 }
 
+.droverce {
+  font-family: "Special Elite", cursive;
+}
+
+.pages:hover {
+  color: white;
+}
+
 .projects-grid {
   display: flex;
 }
 
 /* Resume Page */
 .resume-right-col {
-  background: #27221f;
-  color: white;
+  background: rgb(247, 248, 247);
+  color: black;
   padding: 2em;
 }
 
@@ -66,7 +56,7 @@
   justify-content: center;
   width: 80%;
   height: 550px;
-  background: white;
+  background: rgb(247, 248, 247);
   color: black;
   margin-bottom: 20px;
   border-bottom: 1px dotted black;
@@ -74,18 +64,23 @@
 
 .contact-grid h2 {
   font-family: "Anton", sans-serif;
+  font-family: "Special Elite", cursive;
 }
 
 .contact-grid hr {
   border-top: 1px dotted grey;
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 
 /* styling the icons */
 .contact-list i {
-  font-size: 66px;
+  font-size: 40px;
   padding-right: 5rem;
+}
+
+.contact-list {
+  font-family: "Special Elite", cursive;
 }
 
 .contact-grid p {
@@ -106,6 +101,11 @@
   border-radius: 10px;
 }
 
+.contact-image,
+.resume-image {
+  box-shadow: 5px 5px 3px grey;
+}
+
 .banner-text h1 {
   font-family: "Shadows Into Light", cursive;
   font-family: "Maven Pro", sans-serif;
@@ -113,13 +113,14 @@
   opacity: 0.8;
   font-size: 55px;
   font-weight: bold;
-  color: black;
-  text-shadow: 2px 1px white;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .banner-text h1:hover {
   color: white;
-  text-shadow: 2px 1px black;
+  /* text-shadow: 2px 1px black; */
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .banner-text hr {
@@ -133,14 +134,16 @@
   font-family: "Montserrat", sans-serif;
   font-family: "Shadows Into Light", cursive;
   font-family: "Maven Pro", sans-serif;
-  color: black;
-  font-size: 17px;
+  color: white;
+  font-size: 19px;
   padding: 0 1em 0 1em;
   /* text-shadow: 2px 1px white; */
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .banner-text p:hover {
   color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .social-links {
@@ -151,14 +154,13 @@
 }
 
 .social-links i {
-  color: black;
   font-size: 5em;
   padding: 8px;
   padding-bottom: 25px;
-  color: rgb(212, 213, 197);
-  text-shadow: 2px 1px #302e2e;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .social-links i:hover {
-  color: white;
+  text-shadow: 2px 2px 15px #000000;
 }

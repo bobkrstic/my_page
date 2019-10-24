@@ -12,9 +12,8 @@ class Landingpage extends Component {
         >
           <Cell col={12}>
             <img
-              style={{ borderColor: "black" }}
-              src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png"
-              alt="my-image"
+              src="https://cdn.clipart.email/ea97f684e6dabc8c70b1ee748b31b991_free-vectors-free-vector-business-man-avatar-silhouette-vector-_600-600.jpeg"
+              alt="my-img"
               className="avatar-img"
             />
             <div className="banner-text">
@@ -56,7 +55,7 @@ class Landingpage extends Component {
 
                 {/* Youtube */}
                 <a
-                  href="http://google.com"
+                  href="https://www.youtube.com/watch?v=foT9rsHmS24"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

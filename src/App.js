@@ -12,23 +12,62 @@ class App extends Component {
           <Header
             className="header-color"
             title={
-              <Link style={{ textDecoration: "none", color: "black" }} to="/">
-                MyPortfolio
+              <Link
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                  fontFamily: "Oxygen"
+                }}
+                to="/"
+              >
+                My Portfolio
               </Link>
             }
             scroll
           >
             <Navigation>
-              <Link to="/resume" style={{ color: "black" }}>
+              <Link
+                to="/resume"
+                style={{
+                  color: "white",
+                  fontSize: "1em",
+                  fontFamily: "Oxygen"
+                }}
+                className="pages"
+              >
                 Resume
               </Link>
-              <Link to="/aboutme" style={{ color: "black" }}>
+              <Link
+                to="/aboutme"
+                style={{
+                  color: "white",
+                  fontSize: "1em",
+                  fontFamily: "Oxygen"
+                }}
+                className="pages"
+              >
                 About Me
               </Link>
-              <Link to="/projects" style={{ color: "black" }}>
+              <Link
+                to="/projects"
+                style={{
+                  color: "white",
+                  fontSize: "1em",
+                  fontFamily: "Oxygen"
+                }}
+                className="pages"
+              >
                 Projects
               </Link>
-              <Link to="/contact" style={{ color: "black" }}>
+              <Link
+                to="/contact"
+                style={{
+                  color: "white",
+                  fontSize: "1em",
+                  fontFamily: "Oxygen"
+                }}
+                className="pages"
+              >
                 Contact
               </Link>
             </Navigation>
@@ -39,6 +78,7 @@ class App extends Component {
                 MyPortfolio
               </Link>
             }
+            className="droverce"
           >
             <Navigation>
               <Link to="/resume" style={{ color: "black" }}>

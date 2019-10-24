@@ -15,33 +15,35 @@ class Resume extends Component {
                 src="https://www.shareicon.net/data/128x128/2017/07/13/888372_man_512x512.png"
                 alt="my-img"
                 style={{ height: "200px" }}
+                className="resume-image"
               />
             </div>
-            <h2 style={{ paddingTop: "2em" }}> Bob Krstic</h2>
+            <h2 style={{ paddingTop: "1em" }}> Bob Krstic</h2>
             <h4 style={{ color: "grey" }}>Full Stack Web Developer</h4>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "55%" }} />
+            <hr style={{ borderTop: "1px dotted black", width: "100%" }} />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              My focus is on both, Front End and Back End development. I have
+              been coding for a while now. And as you know, learning never
+              stops. Ups and downs, forgetting things and going over them
+              again... it happened to you, it has been happening to me. See to
+              the right for more info about my education. Here is the list of
+              technologies that I got in contact with: React.js, Node.js, React
+              Native, HTML, CSS, JavaScript, C++, Swift, Unix, Firebase,
+              MongoDB, MySQL, MAMP, Sequel Pro, Postman, Axios, Ajax, Express,
+              handlebars, EJS, Bootstrap, Reactstrap, React-MDL, Slick,
+              json-server, Google Fonts, Ui Gradients, Geo Locator, Git and
+              GitHub.
             </p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "55%" }} />
+            <hr style={{ borderTop: "1px dotted black", width: "100%" }} />
             <h5>Address</h5>
-            <p>1 Pacifica, CA 94044</p>
+            <p>137 Montecito Avenue, Pacifica, CA 94044</p>
             <h5>Phone</h5>
-            <p>123-123-1234</p>
+            <p>916-878-8076</p>
             <h5>Email</h5>
-            <p>me@someemail.com</p>
+            <p>slobodankrsticusa@gmail.com</p>
             <h5>Web</h5>
-            <p>mywebsite.com</p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "55%" }} />
+            <p>work in progress</p>
+            <hr style={{ borderTop: "1px dotted black", width: "100%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
@@ -50,7 +52,7 @@ class Resume extends Component {
               endYear={2018}
               schoolName={"University of California Berkeley Coding Bootcamp"}
               schoolDescription={
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                "Six months coding bootcamp. Full Stack Web Development program, developing apps UI while working with the server side. Main focus was on the JavaScript, HTML and CSS, Firebase and MongoDB and NodeJS. Along came the rest of the tecnologies that are commonly used within the web development industry."
               }
             />
 
@@ -59,7 +61,7 @@ class Resume extends Component {
               endYear={2017}
               schoolName={"City College of San Francisco"}
               schoolDescription={
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                "iPhone programming certificate. Required classes for the program were unix, C++, Swift. I graduated from the program with the highest grade."
               }
             />
 
@@ -68,32 +70,38 @@ class Resume extends Component {
               endYear={2006}
               schoolName={"Fabus"}
               schoolDescription={
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                "FABUS stands for Facutly for Business in Services. It is a unversity that I attended while still living in Europe. I received my Bachelor's Degree in Economics with the focus on Hotel business and Sports management "
               }
             />
-            <hr style={{ borderTop: "3px solid #e22947" }} />
+            <hr style={{ borderTop: "1px dotted black", width: "100%" }} />
             <h2>Experience</h2>
             <Experience
               startYear={2018}
               endYear={"present"}
-              jobName={"First Startup"}
-              jobDescription={"Some text about what I have done there"}
+              jobName={"Mi Casa"}
+              jobDescription={
+                "A small start up focusing on real estate business. The app would allow individuals to buy houses directly form the seller. Due to the idea being protected, I can't say more about it. My task currently is the Front End, working with UI functionality and design. We are using React.js, Redux, MongoDB to store our data."
+              }
             />
 
             <Experience
               startYear={2017}
               endYear={2018}
-              jobName={"Second Startup"}
-              jobDescription={"Some text about what I have done there"}
+              jobName={"N3N"}
+              jobDescription={
+                "React Native based app, can be used on both iPhone and Android. The app is connecting accident location to the authorities and allows quicker response. That's all I am allowed to say abuot it. My task was the front end and design."
+              }
             />
 
             <Experience
               startYear={2017}
               endYear={2018}
               jobName={"Trilogy Education Systems"}
-              jobDescription={"Some text about what I have done there"}
+              jobDescription={
+                "Six months training, developing Full Stack applications with the focus on HTML, CSS, JavaScript and Firebase."
+              }
             />
-            <hr style={{ borderTop: "3px solid #e22947" }} />
+            <hr style={{ borderTop: "1px dotted black", width: "100%" }} />
             <h2>Skills</h2>
             <Skills skill="React.js" progress={45} />
             <Skills skill="JavaScript" progress={50} />
@@ -103,6 +111,7 @@ class Resume extends Component {
             <Skills skill="C++" progress={35} />
             <Skills skill="Swift" progress={37} />
             <Skills skill="ReactNative" progress={25} />
+            <Skills skill="Redux" progress={3} />
           </Cell>
         </Grid>
       </div>
