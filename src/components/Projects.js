@@ -38,7 +38,7 @@ class Projects extends Component {
             >
               React Project 1
             </CardTitle>
-            <CardText>
+            <CardText style={{ textAlign: "justify" }}>
               Here goest a brief introduction to the project, what it
               represents, how many contributors, technologies used along with
               reactjs, etc.
@@ -65,7 +65,7 @@ class Projects extends Component {
             >
               React Project 2
             </CardTitle>
-            <CardText>
+            <CardText style={{ textAlign: "justify" }}>
               Here goest a brief introduction to the project, what it
               represents, how many contributors, technologies used along with
               reactjs, etc.
@@ -93,7 +93,7 @@ class Projects extends Component {
             >
               React Project 3
             </CardTitle>
-            <CardText>
+            <CardText style={{ textAlign: "justify" }}>
               Here goest a brief introduction to the project, what it
               represents, how many contributors, technologies used along with
               reactjs, etc.

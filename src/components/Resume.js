@@ -21,7 +21,7 @@ class Resume extends Component {
             <h2 style={{ paddingTop: "1em" }}> Bob Krstic</h2>
             <h4 style={{ color: "grey" }}>Full Stack Web Developer</h4>
             <hr style={{ borderTop: "1px dotted black", width: "100%" }} />
-            <p>
+            <p style={{ textAlign: "justify" }}>
               My focus is on both, Front End and Back End development. I have
               been coding for a while now. And as you know, learning never
               stops. Ups and downs, forgetting things and going over them
@@ -35,13 +35,13 @@ class Resume extends Component {
               GitHub.
             </p>
             <hr style={{ borderTop: "1px dotted black", width: "100%" }} />
-            <h5>Address</h5>
-            <p>137 Montecito Avenue, Pacifica, CA 94044</p>
-            <h5>Phone</h5>
+            <h5 style={{ fontWeight: "bold" }}>Address</h5>
+            <p>Bay Area</p>
+            <h5 style={{ fontWeight: "bold" }}>Phone</h5>
             <p>916-878-8076</p>
-            <h5>Email</h5>
+            <h5 style={{ fontWeight: "bold" }}>Email</h5>
             <p>slobodankrsticusa@gmail.com</p>
-            <h5>Web</h5>
+            <h5 style={{ fontWeight: "bold" }}>Web Page</h5>
             <p>work in progress</p>
             <hr style={{ borderTop: "1px dotted black", width: "100%" }} />
           </Cell>

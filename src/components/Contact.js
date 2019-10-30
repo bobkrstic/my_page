@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import { Link } from "react-router-dom";
 
 class Contact extends Component {
   render() {
     return (
       <div className="contact-body">
         <Grid className="contact-grid">
-          <Cell col={6}>
+          <Cell col={6} style={{ height: "100%" }}>
             <h2>Bob Krstic</h2>
             <img
               src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
@@ -14,13 +15,21 @@ class Contact extends Component {
               style={{ height: "250px" }}
               className="contact-image"
             />
-            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Hey, thanks for being here for this long. I hope the website
+            <p
+              style={{
+                width: "75%",
+                margin: "auto",
+                paddingTop: "1em",
+                textAlign: "justify"
+              }}
+            >
+              Hey, thanks for being here for this long. I hope that the website
               didn't bore you to death. I am still learning react and web
               development. Many stones are still unturned. But I am getting
               there slowly. Please feel free to contact me at any time. Check
               out my LinkedIn profile and GitHub account, the links are located
-              at the front page. Click "My Portfolio" in the top left corner of
+              at the front page. Click here:
+              <Link to="/">My Portfolio</Link>, or in the top left corner of
               this screen and it will get you there.
             </p>
           </Cell>
@@ -43,7 +52,7 @@ class Contact extends Component {
                     style={{ fontSize: "25px", fontFamily: "Special Elite" }}
                   >
                     <i className="fa fa-fax" aria-hidden="true" />
-                    {"        "}Really???
+                    Really???
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
