@@ -26,11 +26,12 @@ class Contact extends Component {
               Hey, thanks for being here for this long. I hope that the website
               didn't bore you to death. I am still learning react and web
               development. Many stones are still unturned. But I am getting
-              there slowly. Please feel free to contact me at any time. Check
-              out my LinkedIn profile and GitHub account, the links are located
-              at the front page. Click here:
-              <Link to="/">My Portfolio</Link>, or in the top left corner of
-              this screen and it will get you there.
+              there. Please feel free to contact me at any time. Check out my
+              LinkedIn profile and GitHub account, the links are located at the
+              front page. <br></br>
+              <br></br>
+              <Link to="/">My Portfolio</Link> - click on this link or in the
+              top left corner of any page and it will get you there.
             </p>
           </Cell>
           <Cell col={6}>

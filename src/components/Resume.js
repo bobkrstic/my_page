@@ -31,8 +31,8 @@ class Resume extends Component {
               Native, HTML, CSS, JavaScript, C++, Swift, Unix, Firebase,
               MongoDB, MySQL, MAMP, Sequel Pro, Postman, Axios, Ajax, Express,
               handlebars, EJS, Bootstrap, Reactstrap, React-MDL, Slick,
-              json-server, Google Fonts, Ui Gradients, Geo Locator, Git and
-              GitHub.
+              json-server, Google Fonts, Ui Gradients, Webgradients, Edamam API,
+              Twitter API, Spotify API Geo Locator, Git and GitHub.
             </p>
             <hr style={{ borderTop: "1px dotted black", width: "100%" }} />
             <h5 style={{ fontWeight: "bold" }}>Address</h5>
