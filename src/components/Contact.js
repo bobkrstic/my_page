@@ -8,7 +8,7 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6} style={{ height: "100%" }}>
-            <h2>Bob Krstic</h2>
+            <h2>Name Lastname</h2>
             <img
               src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
               alt="myImage"
@@ -20,7 +20,7 @@ class Contact extends Component {
                 width: "75%",
                 margin: "auto",
                 paddingTop: "1em",
-                textAlign: "justify"
+                textAlign: "justify",
               }}
             >
               Hey, thanks for being here for this long. I hope that the website
@@ -45,7 +45,7 @@ class Contact extends Component {
                     style={{ fontSize: "25px", fontFamily: "Oxygen" }}
                   >
                     <i className="fa fa-phone-square" aria-hidden="true" />
-                    916 - 878 - 8076
+                    My Phone Number
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
@@ -61,7 +61,7 @@ class Contact extends Component {
                     style={{ fontSize: "25px", fontFamily: "Oxygen" }}
                   >
                     <i className="fa fa-envelope" aria-hidden="true" />
-                    slobodankrsticusa@gmail.com
+                    myEmail@email.com
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
@@ -69,7 +69,7 @@ class Contact extends Component {
                     style={{ fontSize: "25px", fontFamily: "Oxygen" }}
                   >
                     <i className="fa fa-skype" aria-hidden="true" />
-                    slobodankrsticusa
+                    my Skype name
                   </ListItemContent>
                 </ListItem>
               </List>

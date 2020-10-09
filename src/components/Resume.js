@@ -18,7 +18,7 @@ class Resume extends Component {
                 className="resume-image"
               />
             </div>
-            <h2 style={{ paddingTop: "1em" }}> Bob Krstic</h2>
+            <h2 style={{ paddingTop: "1em" }}> Name Lastname</h2>
             <h4 style={{ color: "grey" }}>Full Stack Web Developer</h4>
             <hr style={{ borderTop: "1px dotted black", width: "100%" }} />
             <p style={{ textAlign: "justify" }}>
@@ -38,9 +38,9 @@ class Resume extends Component {
             <h5 style={{ fontWeight: "bold" }}>Address</h5>
             <p>Bay Area</p>
             <h5 style={{ fontWeight: "bold" }}>Phone</h5>
-            <p>916-878-8076</p>
+            <p>My Phone Number</p>
             <h5 style={{ fontWeight: "bold" }}>Email</h5>
-            <p>slobodankrsticusa@gmail.com</p>
+            <p>my Email Address</p>
             <h5 style={{ fontWeight: "bold" }}>Web Page</h5>
             <p>work in progress</p>
             <hr style={{ borderTop: "1px dotted black", width: "100%" }} />
@@ -68,28 +68,28 @@ class Resume extends Component {
             <Education
               startYear={2002}
               endYear={2006}
-              schoolName={"Fabus"}
+              schoolName={"BRABUS"}
               schoolDescription={
-                "FABUS stands for Facutly for Business in Services. It is a unversity that I attended while still living in Europe. I received my Bachelor's Degree in Economics with the focus on Hotel business and Sports management "
+                "BRABUS stands for Facutly for Business in Services. It is a unversity that I attended while still living in Europe. I received my Bachelor's Degree in Economics with the focus on Hotel business and Sports management "
               }
             />
             <hr style={{ borderTop: "1px dotted black", width: "100%" }} />
             <h2>Experience</h2>
             <Experience
-              startYear={2018}
-              endYear={"present"}
-              jobName={"Mi Casa"}
+              startYear={2019}
+              endYear={2019}
+              jobName={"Mi Kasa"}
               jobDescription={
-                "A small start up focusing on real estate business. The app would allow individuals to buy houses directly form the seller. Due to the idea being protected, I can't say more about it. My task currently is the Front End, working with UI functionality and design. We are using React.js, Redux, MongoDB to store our data."
+                "A small start up focusing on real estate business. The app would allow individuals to buy houses directly form the seller. My task currently is the Front End, working with UI functionality and design. We are using React.js, Redux, MongoDB to store our data."
               }
             />
 
             <Experience
               startYear={2017}
               endYear={2018}
-              jobName={"N3N"}
+              jobName={"nTRIn"}
               jobDescription={
-                "React Native based app, can be used on both iPhone and Android. The app is connecting accident location to the authorities and allows quicker response. That's all I am allowed to say abuot it. My task was the front end and design."
+                "React Native based app, can be used on both iPhone and Android. The app is connecting accident location to the authorities and allows quicker response. My task was the front end and design."
               }
             />
 
@@ -109,6 +109,7 @@ class Resume extends Component {
             <Skills skill="CSS" progress={65} />
             <Skills skill="Node.js" progress={50} />
             <Skills skill="C++" progress={35} />
+            <Skills skill="Java" progress={25} />
             <Skills skill="Swift" progress={37} />
             <Skills skill="ReactNative" progress={25} />
             <Skills skill="Redux" progress={3} />
