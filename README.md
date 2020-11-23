@@ -1,3 +1,10 @@
+To run this project:
+
+1. Clone the repository.
+2. Go into the root folder and execute "npm install" command.
+3. Type "npm start" command.
+4. this will open the project on your available local host.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
